@@ -182,7 +182,7 @@ export default function Home() {
                     <div className="project-links">
                       {project.live && <a href={project.live} target="_blank" rel="noreferrer">Live project <ExternalLink size={14} /></a>}
                       <a href={project.repo} target="_blank" rel="noreferrer">GitHub <Github size={14} /></a>
-                      {project.demo && <a href={project.demo} target="_blank" rel="noreferrer">Watch demo <Play size={13} fill="currentColor" /></a>}
+                      {/* {project.demo && <a href={project.demo} target="_blank" rel="noreferrer">Watch demo <Play size={13} fill="currentColor" /></a>} */}
                     </div>
                   </div>
                 </div>
