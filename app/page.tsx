@@ -46,19 +46,19 @@ const projects = [
     repo: 'https://github.com/Shruti01207/responsive-site',
     accent: 'blue',
     icon: Code2,
-  },
-  {
-    number: '03',
-    category: 'Customer feedback · Full-stack',
-    title: 'Survey application',
-    description: 'A complete feedback workflow — from creating survey sessions and serving questions to storing and retrieving customer responses — built with a responsive Angular interface backed by a structured .NET Web API and SQL Server.',
-    tags: ['Angular 15', '.NET Web API', 'SQL Server'],
-    image: '/images/survey-app.png',
-    repo: 'https://github.com/Shruti01207/survey-angular-application',
-    demo: 'https://drive.google.com/file/d/1CAmZYRLlrquTRR9H2h33y4qjyUN6paHz/view',
-    accent: 'coral',
-    icon: BriefcaseBusiness,
-  },
+  }
+  // {
+  //   number: '03',
+  //   category: 'Customer feedback · Full-stack',
+  //   title: 'Survey application',
+  //   description: 'A complete feedback workflow — from creating survey sessions and serving questions to storing and retrieving customer responses — built with a responsive Angular interface backed by a structured .NET Web API and SQL Server.',
+  //   tags: ['Angular 15', '.NET Web API', 'SQL Server'],
+  //   image: '/images/survey-app.png',
+  //   repo: 'https://github.com/Shruti01207/survey-angular-application',
+  //   demo: 'https://drive.google.com/file/d/1CAmZYRLlrquTRR9H2h33y4qjyUN6paHz/view',
+  //   accent: 'coral',
+  //   icon: BriefcaseBusiness,
+  // },
 ];
 
 const skills = [
@@ -69,7 +69,7 @@ const skills = [
 ];
 
 const experience = [
-  { period: 'Dec 2024 — now', company: 'Scrumm Labs', role: 'Software Developer', detail: 'Shipped a revenue forecasting report with a 5-level drill-down, an LLM-powered product matcher that cut a full day of manual work to under 5 minutes, and an inventory forecasting module that earned strong client feedback at its very first demo.' },
+  { period: 'Dec 2024 — May 2026', company: 'Scrum Labs', role: 'Software Developer', detail: 'Shipped a revenue forecasting report with a 5-level drill-down, an LLM-powered product matcher that cut a full day of manual work to under 5 minutes, and an inventory forecasting module that earned strong client feedback at its very first demo.' },
   { period: 'Dec 2023 — Nov 2024', company: 'Qloron Private Limited', role: 'Angular Developer', detail: 'Built and debugged responsive, client-facing web applications using Angular 14, TypeScript, and Angular Material. Returned full-time post-graduation on a direct referral — a signal of the trust earned during the initial internship.' },
   { period: 'Apr 2023 — Aug 2023', company: 'Minvik Technologies', role: 'Tech Intern', detail: 'Built IoT dashboards for real-time urban infrastructure monitoring, improved app performance via lazy loading and standalone component migration, and extended a backend quiz application with server-side search using ASP.NET Core and SQL Server.' },
 ];
